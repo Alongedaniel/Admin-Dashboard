@@ -25,9 +25,9 @@
   --color-background: #181a1e;
   --color-white: #202528;
   --color-dark: #edeffd;
-  --color-dark-variant:#a3bdcc;
-  --color-light:rgba(0, 0, 0, 0.4);
-  --box-shadow:0 2rem 3rem var(--color-light);
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
+  --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
 * {
@@ -155,7 +155,7 @@ aside .top {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: .5rem;
+  margin-top: 1.5rem;
 }
 
 aside .logo img {
@@ -253,14 +253,14 @@ aside .menu-items:hover .menu-icons {
 }
 
 main {
-  margin-top: .5rem;
+  margin-top: 1.5rem;
 }
 
 main .date {
   display: inline-block;
   background-color: var(--color-light);
   border-radius: var(--border-radius-1);
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   padding: 0.5rem 1.6rem;
 }
 
@@ -272,7 +272,7 @@ main input[type="date"] {
 main .insight {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr);
+  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
 }
@@ -388,7 +388,7 @@ main .history {
 }
 
 .recent-orders {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .recent-orders .recent-order-title {
@@ -422,15 +422,8 @@ main .history {
   border: none;
 }
 
-.recent-orders .show-all {
-  text-align: center;
-  display: block;
-  margin: .5rem auto;
-  color: var(--color-primary);
-}
-
 .right {
-  margin-top: 1.4rem;
+  margin-top: 2.4rem;
 }
 
 .right .top {
@@ -494,7 +487,7 @@ main .history {
 }
 
 .right .recent-updates {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .right .recent-updates .title {
@@ -542,7 +535,7 @@ main .history {
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   padding: 1rem var(--card-padding);
   border-radius: var(--border-radius-3);
   -webkit-box-shadow: var(--box-shadow);

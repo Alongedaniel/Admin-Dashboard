@@ -141,7 +141,7 @@ aside {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
   }
 
   .logo img {
@@ -237,7 +237,7 @@ aside {
 // =============== MAIN ===============
 
 main {
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
 
   .date {
     display: inline-block;
@@ -352,7 +352,7 @@ main {
 }
 
 .recent-orders {
-  margin-top: 1rem;
+  margin-top: 2rem;
 
   .recent-order-title {
     margin-bottom: 0.08rem;
@@ -382,16 +382,16 @@ main {
     border: none;
   }
 
-  .show-all {
-    text-align: center;
-    display: block;
-    margin: 0.5rem auto;
-    color: var(--color-primary);
-  }
+  // .show-all {
+  //   text-align: center;
+  //   display: block;
+  //   margin: 0.5rem auto;
+  //   color: var(--color-primary);
+  // }
 }
 
 .right {
-  margin-top: 1.4rem;
+  margin-top: 2.4rem;
 
   .top {
     display: flex;
