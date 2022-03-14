@@ -272,7 +272,7 @@ main input[type="date"] {
 main .insight {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr);
       grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
 }
